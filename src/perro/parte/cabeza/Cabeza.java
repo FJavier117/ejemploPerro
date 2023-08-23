@@ -9,8 +9,8 @@ package perro.parte.cabeza;
 public class Cabeza {
     private final Hocico hocico;
     private final Nariz nariz;
-    private final int numeroDeOjos;
-    private final int numeroDeOreja;
+    private int numeroDeOjos;
+    private int numeroDeOreja;
     private final Ojo [] ojo; //Agregación
     private final Oreja [] oreja;
 
@@ -28,6 +28,7 @@ public class Cabeza {
     public String addOjo(Ojo ojo){
         if (numeroDeOjos < 2){
             this.ojo[numeroDeOjos] = ojo;
+            numeroDeOjos++;
         }
         return "Ojo agregado";
     }
@@ -35,6 +36,7 @@ public class Cabeza {
     public String addOreja(Oreja oreja){
         if (numeroDeOreja < 2){
             this.oreja[numeroDeOreja] = oreja;
+            numeroDeOreja++;
         }
         return "Oreja agregada";
     }

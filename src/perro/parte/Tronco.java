@@ -8,4 +8,9 @@ public class Tronco {
         this.size = size;
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return color + " " + size;
+    }
 }

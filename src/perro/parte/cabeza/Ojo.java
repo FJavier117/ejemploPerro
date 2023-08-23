@@ -6,6 +6,11 @@ public class Ojo {
     private final String size;
     private final String forma;
 
+    public  Ojo(){
+        this.color = "sin ojos";
+        this.size = "sin ojo";
+        this.forma = "sin ojo";
+    }
     public Ojo(String color, String size, String forma){
         this.color = color;
         this.size = size;
