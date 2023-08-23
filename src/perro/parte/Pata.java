@@ -13,5 +13,21 @@ public class Pata {
         this.tipo = tipo;
     }
 
+    public String caminar(){
+        return "";
+    }
 
+    public String correr(){
+        return "";
+    }
+
+    public String brincar(){
+        return "";
+    }
+
+
+    @Override
+    public String toString() {
+        return numerDedos + " " + colorAlmohadilla +" "+ tipo;
+    }
 }

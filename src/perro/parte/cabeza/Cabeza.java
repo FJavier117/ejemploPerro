@@ -15,7 +15,7 @@ public class Cabeza {
     private final Oreja [] oreja;
 
     //Sobrecargamos constructor
-    public Cabeza(String sizeHocico, String formaHocico,String sizeNariz, String formaNariz ){
+    public Cabeza(String sizeHocico, String formaHocico,String sizeNariz, String formaNariz){
         this.hocico = new Hocico(formaHocico,sizeHocico);
         this.nariz = new Nariz(formaNariz,sizeNariz);
         this.numeroDeOjos = 0;
